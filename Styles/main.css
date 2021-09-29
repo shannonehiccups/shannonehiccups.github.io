@@ -1,0 +1,12 @@
+@import url(variables);
+@import url("https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@100;300;400;700;900&family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap");
+.mynavbar {
+  font-size: 25px;
+  font-family: 'Koh Santepheap', cursive;
+  background-color: #213945;
+}
+
+#showcase {
+  background-color: #213945;
+}
+/*# sourceMappingURL=main.css.map */
