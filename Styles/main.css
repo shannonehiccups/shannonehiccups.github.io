@@ -8,5 +8,15 @@
 
 #showcase {
   background-color: #213945;
+  color: aquamarine;
+}
+
+#selfie {
+  border-radius: 50%;
+  max-height: 300px;
+  max-width: 300px;
+  margin-bottom: 100px;
+  margin-top: 75px;
+  border: 3px solid papayawhip;
 }
 /*# sourceMappingURL=main.css.map */
