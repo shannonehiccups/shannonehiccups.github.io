@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap');
+
+body {
+    background-color: #eee;
+}
+
+p {
+    font-family:'Ubuntu', sans-serif;
+    font-weight: 700; 
+    /* font-size: 35px;  */
+    font-size: 2vw; 
+    /* VW sets the font/text size based on the width of the viewport (AKA Browser Window) */
+    text-transform: uppercase; 
+    letter-spacing: 5px; 
+    text-align: center; 
+    border-bottom: 5px solid #ccc; 
+    padding-bottom: 10px;
+    width: 47.5%;
+    margin: auto
+}
+
+img{
+width: 22.5%;
+margin: 1.25%;
+float: left;
+}

@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:ital,wght@0,100;0,200;0,400;0,600;1,200&display=swap");
+#Calliope {
+  font-family: 'DM Serif Display', serif;
+  font-size: 30px;
+  color: #f3f4f6;
+}
+
+.mynavbar {
+  font-family: 'DM Serif Display', serif;
+  color: #f3f4f6;
+  font-size: 20px;
+  background-color: #212d35;
+  border-color: #212d35;
+}
+
+.mynavbutton:hover {
+  color: #9d0f0d;
+}
+
+/* Showcase */
+#showcase {
+  min-height: 100vh;
+  background-image: url("filteredCheesecake.png");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #212d35;
+}
+
+#workbox {
+  height: 100vh;
+}
+
+#showcase h1 {
+  font-family: 'DM Serif Display', serif;
+  font-size: 75px;
+}
+
+#aboutUs {
+  background-color: #919393;
+  color: #212d35;
+  font-family: 'Poppins', sans-serif;
+}
+
+#aboutUs h1 {
+  font-family: 'DM Serif Display', serif;
+}
+/*# sourceMappingURL=main.css.map */

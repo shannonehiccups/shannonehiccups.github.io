@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap');
+/* Importing/linking to the Nunito Google Font */
+
+* {
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+    font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #4b5163; 
+}
+
+#main {
+    position: relative;
+    width:100vw;
+    height: 100vh;
+    /* vh = viewport height (%)*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* or place-items:center as a shorthand way to accomplish task */
+
+    padding: 0 20px;
+    /* this is used for cushioning on really small screens */
+}
+
+#video-container {
+    position: absolute;
+    top:0; 
+    left:0; 
+    width: 100%;
+    height: 100%;
+    background-image: url("cover.png");
+    background-repeat:no-repeat; 
+    background-position: center;
+    background-size: cover;
+}
+
+video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0; 
+    object-fit: cover;
+    /* The object-fit property determines how a video or image element is resized (fill will stretch only one way, cover retains aspect ratio) */
+}
+
+#cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7)
+}
+
+#content {
+    color: white; 
+    z-index: 2;
+    text-align: center;
+}
+
+#click {
+    display: inline-block; 
+    margin-top: 25px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px 30px; 
+    background-color: #4b5163; 
+    color: white;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+#click:hover {
+    transform: scale(1.15);
+    opacity: 1;
+}
+
+#about {
+    padding: 50px;
+    text-align: center;
+}
+
+#about p {
+    font-size: 20px;
+    max-width: 475px;
+    margin: auto;
+}
+
+#about h2 {
+    margin: 40px 0; 
+    color: #4b5163
+}
+
+i {
+    font-size: 75px;
+    color: #4b5163;
+    padding: 10px;
+}
