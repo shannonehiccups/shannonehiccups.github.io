@@ -16,6 +16,15 @@
   max-width: 300px;
 }
 
+#aboutMe {
+  font-family: 'Koh Santepheap', cursive;
+  color: #213945;
+}
+
+#aboutMe p {
+  font-family: 'Lato', sans-serif;
+}
+
 .skills {
   font-family: 'Koh Santepheap', cursive;
   font-size: 25px;
