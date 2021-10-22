@@ -3,16 +3,19 @@
 // font-family: 'Koh Santepheap', cursive;
 // font-family: 'Lato', sans-serif;
 
+body {
+    background-color: rgb(33,57,69);
+}
 
 .mynavbar {
     font-size: 25px;
     font-family: 'Koh Santepheap', cursive;
-    background-color: rgb(33,57,69);
+
 }
 
 #showcase {
-   background-color: rgb(33,57,69);
    font-family: 'Koh Santepheap', cursive;
+   color:rgb(33,57,69)
 }
 
 #selfie {
@@ -20,14 +23,14 @@
     max-width: 300px;
 }
 
-#aboutMe
-{
+#aboutMe{
     font-family: 'Koh Santepheap', cursive;
-    color: rgb(33,57,69);
+    margin-bottom: 75px;
     p {
         font-family: 'Lato', sans-serif;  
     }
 }
+
 
 .skills {
     font-family:'Koh Santepheap', cursive;
@@ -38,4 +41,13 @@
 .logo {
     font-size: 150px;
     margin: 15px;
+}
+
+.space {
+    min-height: 75px;
+}
+
+.navybar {
+    background-color: rgb(33,57,69);
+    min-height: 25px;
 }

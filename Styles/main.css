@@ -1,14 +1,17 @@
 @import url(variables);
 @import url("https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@100;300;400;700;900&family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap");
-.mynavbar {
-  font-size: 25px;
-  font-family: 'Koh Santepheap', cursive;
+body {
   background-color: #213945;
 }
 
-#showcase {
-  background-color: #213945;
+.mynavbar {
+  font-size: 25px;
   font-family: 'Koh Santepheap', cursive;
+}
+
+#showcase {
+  font-family: 'Koh Santepheap', cursive;
+  color: #213945;
 }
 
 #selfie {
@@ -18,7 +21,7 @@
 
 #aboutMe {
   font-family: 'Koh Santepheap', cursive;
-  color: #213945;
+  margin-bottom: 75px;
 }
 
 #aboutMe p {
@@ -34,5 +37,14 @@
 .logo {
   font-size: 150px;
   margin: 15px;
+}
+
+.space {
+  min-height: 75px;
+}
+
+.navybar {
+  background-color: #213945;
+  min-height: 25px;
 }
 /*# sourceMappingURL=main.css.map */
